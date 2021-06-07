@@ -1,0 +1,19 @@
+{
+  "name": "uwindsor-ai-club",
+  "version": "1.0.0",
+  "description": "This is a website for the UWindsor AI Club.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farazn019/UWindsor-AI-Club-Website.git"
+  },
+  "author": "Faraz Naseem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farazn019/UWindsor-AI-Club-Website/issues"
+  },
+  "homepage": "https://github.com/farazn019/UWindsor-AI-Club-Website#readme"
+}

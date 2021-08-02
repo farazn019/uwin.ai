@@ -26,6 +26,27 @@ router.get('/', (request, response) => {
 	response.sendFile(path.join(__dirname + '/index.html'));
 });
 
+router.get('/news', (request, response) => {
+	response.send({message: "This is for the news endpoint"});
+})
+
+router.get('/events', (request, response) => {
+	response.send({message: "This is for the events endpoint"});
+})
+
+router.get('/projects', (request, response) => {
+	response.send({message: "This is for the projects endpoint"});
+})
+
+router.get('/members', (request, response) => {
+	response.send({message: "This is for the members endpoint"});
+})
+
+router.get('/join', (request, response) => {
+	response.send({message: "This is for the join endpoint"});
+})
+
+
 app.use('/', router);
 
 app.listen(port, () => {

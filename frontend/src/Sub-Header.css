@@ -1,0 +1,28 @@
+
+#main-header{
+    width: 100%;
+    animation-name: slideheader;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    text-align: center;
+}
+  
+  
+@keyframes slideheader{
+    from{
+      transform: translateY(0%);
+    }
+    to{
+      transform: translateY(100%);
+    }
+}
+
+
+#uwindsor_logo{
+    position:absolute;
+    margin-left: 25%;
+    margin-top: 5%;
+    min-width: 200px;
+    max-height: 200px;
+}
+  

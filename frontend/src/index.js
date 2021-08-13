@@ -1,42 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
-/*
-var buttons = {
-  "news": "Clicked On News",
-  "events": "Clicked On Events",
-  "projects": "Clicked On Projects",
-  "members": "Clicked On Members",
-  "join": "Clicked on Join!"
-};*/
-
-
-
-
-//buttons.map((buttonName) => console.log(buttonName));
-
-//var buttonNames = Object.keys(JSON.parse(buttons));
-//console.log(buttonNames);
+import SubHeader from './Sub-Header';
+import News from './News';
+import Events from './Events';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SubHeader />
+  </React.StrictMode>,
+  document.getElementById("main-heading")
+);
+
+
+
+ReactDOM.render(
+  <React.StrictMode>
+    <News/>
   </React.StrictMode>,
   document.getElementById('News')
 );
 
-{/*
+
+
 ReactDOM.render(
   <React.StrictMode>
-  
-  </React.StrictMode>
-);*/
-}
+    <Events/>
+  </React.StrictMode>,
+
+  document.getElementById("Events")
+);
+
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

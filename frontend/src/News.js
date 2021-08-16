@@ -15,11 +15,6 @@ class News extends Component{
         <Headers name="News"></Headers>
         <NewsContentSubHeading></NewsContentSubHeading>
         <NewsContent news="None"></NewsContent>
-
-        {/*
-        <Headers name="Projects"></Headers>
-        <Headers name="Members"></Headers>
-        <Headers name="Join"></Headers>*/}
       </div>
     )
   }
